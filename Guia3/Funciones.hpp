@@ -8,7 +8,7 @@ struct Node {
 };
 typedef struct Node *Stack;
 
-void initiliaze(Stack *s) {
+void initialize(Stack *s) {
     *s = NULL ;
 
 }
