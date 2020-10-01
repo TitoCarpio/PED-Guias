@@ -1,3 +1,7 @@
+#include <iostream>
+
+using namespace std;
+
 struct Node {
     int element;
     struct Node *next;
@@ -10,7 +14,7 @@ void initiliaze(Stack *s) {
 }
 
 bool empty(Stack *s) {
-    return *s == NULL;
+    return *s == NULL ;
 }
 
 void push(Stack *s, int e) {

@@ -13,7 +13,7 @@ void menu(Stack *s) {
         cout << "1. Ingresar elemento a la pila" << endl;
         cout << "2. Eliminar elemento de la pila" << endl;
         cout << "3. Salir del menu" << endl;
-        cout << "\n" << "Ingrese la opción que deseas ejectuar: ";
+        cout << "\n" << "Ingrese la opcion que deseas ejectuar: ";
         cin >> option;
         cout << "\n";
 
